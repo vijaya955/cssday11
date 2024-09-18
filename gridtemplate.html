@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ad{
+            height:70vh;
+            width:22vw;
+            display:grid;
+            gap:10px;
+            grid-template-areas: 
+            'area1 area2 area3'
+            'area1 area4 area5'
+            'area6 area4 area7';
+        }
+        #img1{
+            grid-area: area1;
+            height:250px;
+        }
+        #img2{
+            grid-area: area2;
+        }
+        #img3{
+            grid-area: area3;
+        }
+        #img4{
+            grid-area: area4;
+        }
+        #img5{
+            grid-area: area5;
+        }
+        #img6{
+            grid-area: area6;
+            height:200px;
+            top:-60px;
+            position: relative;
+        }
+        #img7{
+            grid-area: area7;
+        }
+    </style>
+</head>
+<body>
+    <div class="ad">
+        <img id="img1" src="./minnie.webp" height="200" width="120">
+        <img id="img2" src="./coffee.jpg" height="150" width="120">
+        <img id="img3" src="./plant.webp" height="150" width="120">
+        <img id="img4" src="./car.jpeg" height="300" width="120">
+        <img id="img5" src="./camera1.jpeg" height="150" width="120">
+        <img id="img6" src="./girl.jpeg" height="150" width="120">
+        <img id="img7" src="./lamp.jpeg" height="150" width="120">
+    </div>
+</body>
+</html>
